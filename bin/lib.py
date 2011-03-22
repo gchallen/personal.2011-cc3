@@ -12,6 +12,12 @@ def clean(inlines):
   inlines = keeptex.sub(r"\2", inlines)
   keeptex2 = re.compile(r"\{\\scshape\s+([^\}]+)\}", re.S | re.M)
   inlines = keeptex2.sub(r"\1", inlines)
+  keeptex3 = re.compile(r"\\dialog\{([^\}]+)\}\{([^\}]+)\}", re.S | re.M)
+  def match(m):
+    return m.group(1).upper() + "\n\n" + m.group(2)
+  inlines = keeptex3.sub(match, inlines)
+  keeptex4 = re.compile(r"\\stage\{([^\}]+)\}", re.M)
+  inlines = keeptex4.sub(r"(\1)", inlines)
   quotes = re.compile(r"(``|'')", re.M)
   inlines = quotes.sub(r'"', inlines)
   enumerate = re.compile(r"\\begin\{enumerate\}(.*?)\\end\{enumerate\}", re.S | re.M)
@@ -36,6 +42,5 @@ def clean(inlines):
   inlines = removeitem.sub("", inlines)
   removeflushenumbf = re.compile(r"\\begin\{flushenumbf\}\s+(.*?)\s+\\end\{flushenumbf\}", re.S | re.M)
   inlines = removeflushenumbf.sub(r"\1", inlines)
-
   output = '\n\n'.join([re.sub(r'\n', ' ', l) for l in re.split(r'\s{2,}', inlines)][0:])
   return output

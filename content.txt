@@ -1,97 +1,125 @@
 
 
-\stage{A Harvard Professor and Harvard College student walk into a therapist's office.}
+(A Harvard Professor and Harvard College student walk into a therapist's office.)
 
-\dialog{Therapist}{What brings you in today?}
+THERAPIST
 
-\dialog{Professor}{Nobody comes to my office hours!}
+What brings you in today?
 
-\dialog{Therapist}{Why do you think that is?}
+PROFESSOR
 
-\dialog{Professor}{I think some students just feel bashful.}
+Nobody comes to my office hours! I think some students just feel bashful.
 
-\dialog{Therapist}{Student, is that true?}
+THERAPIST
 
-\dialog{Student}{Not really. Sure, I know a few bashful students, but in general this isn't a terribly bashful place.}
+Student, is that true?
 
-\dialog{Therapist}{Have you thought about attending office hours?}
+STUDENT
 
-\dialog{Student}{Sure, sometimes.}
+Not really. I know a few bashful students, but Harvard isn't a terribly bashful place.
 
-\dialog{Therapist}{Have you ever gone?}
+THERAPIST
 
-\dialog{Student}{No.}
+Have you attended office hours?
 
-\dialog{Therapist}{Why not?}
+STUDENT
 
-\dialog{Student}{I guess I just haven't had relevant enough questions. I don't know.}
+No. I guess I just haven't had relevant enough questions. But I invited my favorite Professor to the student-faculty dinner!
 
-\dialog{Therapist}{Have you reached out to faculty in other ways?}
+THERAPIST
 
-\dialog{Student}{Sure, I invited my favorite Professor to the student-faculty dinner at my house.}
+How did that go?
 
-\dialog{Therapist}{How did that go?}
+STUDENT
 
-\dialog{Student}{Just OK. It was awkward, really. The Professor I invited didn't really seem to know much about my life and wasn't that curious.}
+It was awkward, really. The Professor I invited was hard to talk to and didn't seem that curious about me.
 
-\dialog{Professor}{Can I respond?}
+PROFESSOR
 
-\dialog{Therapist}{Sure.}
+Can I respond? Students seem distant to us too. They only care about their grade and have no real interest in the material. And given how busy they are, no wonder! Clubs, societies, sports, choirs, orchestras, you name it. They're all doing fifty other things and class is their last priority.
 
-\dialog{Professor}{Students seem distant to us too. They only care about their grade and few
+STUDENT
 
-want to engage deeply with the material. And they're too busy to! Clubs, societies, publications, sports, choirs, orchestras, you name it. They're all doing fifty other things and make it very clear to you that your class is their last priority.}
+Well, since we're opening up, Professors around here make their priorities very clear! Talk about busy! First it's research, grant-writing, and supervising graduate students. After that, they're starting companies and consulting to augment their already generous salaries, appearing on television, and writing books. I pay tuition and what do I get? Last year's warmed-over lectures and one office hour a week. What a rip.
 
-\dialog{Student}{OK, since we're being really honest, Professors around here make their priorities very clear! Talk about busy! First it's research, grant-writing, and supervising their graduate students who they really care about. After that, they want to start companies and consult to augment their already generous salaries, appear on television, write books, and so on. What do I get for my insane tuition? Last year's warmed-over lectures and two office hours a week.}
+THERAPIST
 
-\dialog{Therapist}{It's clear you're both upset. Let's step back for a minute. Professor, do you feel like there are opportunities to meet students on campus?}
+It's clear you're both upset. Let's step back for a minute. Professor, do you feel like there are opportunities to meet students on campus?
 
-\dialog{Professor}{Definitely! Harvard is great at that. I can take meals in the dining hall, attend sporting or other extracurricular events, and even join one of the House Senior Common Rooms or become a House Master. I even heard a Professor who applied to be a Resident Tutor.}
+PROFESSOR
 
-\dialog{Student}{Really? What happened to him?}
+Definitely! I can eat at the dining hall, attend extracurricular events, join one of the House Senior Common Rooms or even become a House Master. I even heard a Professor who applied to be a Resident Tutor.
 
-\dialog{Professor}{Nobody hired him! I think they thought he was a bit crazy.}
+STUDENT
 
-\dialog{Therapist}{Professor, have you tried any of these things?}
+(Really? What happened to him?)
 
-\dialog{Professor}{No, not really. I went to lunch once but nobody talked to me.}
+PROFESSOR
 
-\dialog{Therapist}{Would it be possible to try again? Not all students are great conversationalists.}
+(Nobody hired him! I think they thought he was crazy.)
 
-\dialog{Professor}{Nobody cares! I'm up for tenure in three years. I have to crank out publications and degrees. I don't get any credit for any of this student contact stuff, everyone knows that! My only interaction with the College that matters is having halfway-decent CUE scores, and as long as I crack a few jokes here and there and grade generously I'm set. I want to spend more time with undergraduates. It's just not part of my job description.}
+THERAPIST
 
-\dialog{Student}{I mean, I want to believe you, but I've had some really inspiring teachers here. David Malan. Tim McCarthy. They seem to be able to do it.}
+Professor, have you tried any of these things?
 
-\stage{Professor looks uncomfortable.}
+PROFESSOR
 
-\dialog{Professor}{Yeah, those guys are great, but they don't do any research and don't have full appointments.}
+No. But nobody cares! I'm up for tenure soon. I have to crank out publications and degrees. I don't get any credit for any of this student contact stuff, everyone knows that! My only interaction with the College that matters is having halfway-decent CUE scores, and as long as I crack a few jokes and grade generously I'm set. I want to spend more time with undergraduates. It's just not part of my job description.
 
-\dialog{Therapist}{Perhaps research is the problem then?}
+STUDENT
 
-\dialog{Professor}{No, no! Research is great! It's the reason I'm here, and it's what makes Harvard the best.}
+I mean, I want to believe you, but I've had some really inspiring teachers here. David Malan. Tim McCarthy. They seem to be able to do it.
 
-\dialog{Student}{But I came here for an education. So while you're busy in the lab, I'm learning from my peers, in those clubs, teams, and extracurricular organizations you mentioned earlier.}
+(Professor looks uncomfortable.)
 
-\dialog{Therapist}{Professor, do you think things will change after you get tenure?}
+PROFESSOR
 
-\dialog{Professor}{Yes! Then I'll be able to completely change the values that have been instilled in me during my first six years here. I'll definitely spend more time with students.}
+Yeah, those guys are great, but they don't do any research and don't have full appointments.
 
-\dialog{Student}{C'mon. Isn't after tenure the time when you slow down, spend more time with your family, and start a company on the side?}
+THERAPIST
 
-\dialog{Professor}{That's not fair.}
+Perhaps research is the problem then?
 
-\stage{The two sit in silence for a minute.}
+PROFESSOR
 
-\dialog{Therapist}{Let me summarize. Professor, you claim you'd like to spend more time with students but the research orientation of Harvard prevents you from doing so. Certainly there are no good incentives for this behavior. Student, you feel ignored by faculty generally but have responded by building your own community centered around interacting with your peers through extracurricular activities. You're happy for the main part but wonder how much of your tuition is going to fund the community of scholars who seem largely uninterested in you and a growing number of administrators hired to pay attention to you when Professors don't.}
+No, no! Research is what makes Harvard so great!
 
-\dialog{Professor}{That's fair, I guess. I didn't design the system, but it's the one we have.}
+STUDENT
 
-\dialog{Student}{Sure, that's about right.}
+But I'm trying to get an education. So while you're busy in the lab, I'm learning from my peers, in those clubs, teams, and extracurricular organizations you mentioned earlier.
 
-\dialog{Therapist}{I can't say that this seems like a healthy relationship. I think you two have reached a stable but unhappy cohabitation. Let me make a suggestion.}
+THERAPIST
 
-\dialog{Professor}{Sure.}
+Professor, do you think things will change after you get tenure?
 
-\dialog{Therapist}{You two need to decide whether you really want this relationship to work.}
+PROFESSOR
+
+Yes! Then I'll be able to completely change the values that have been instilled in me during my first six years here. I'll definitely spend more time with students.
+
+STUDENT
+
+C'mon. Isn't after tenure the time when you slow down, spend more time with your family, and start a company on the side?
+
+(The two sit in silence for a minute.)
+
+THERAPIST
+
+Let me summarize. Professor, you claim you'd like to spend more time with students but the research orientation of Harvard prevents you from doing so. Student, you feel ignored by faculty and have responded by building your own community centered around interacting with your peers through extracurricular activities. You're happy for the main part but wonder how much of your tuition is going to fund the community of scholars who seem largely uninterested in you and a growing number of administrators hired to pay attention to you when Professors don't.
+
+STUDENT
+
+That's a fair assessment.
+
+THERAPIST
+
+I can't say that this seems like a healthy relationship. I think you two have reached a stable but unhappy cohabitation. Let me make a suggestion.
+
+PROFESSOR
+
+Sure.
+
+THERAPIST
+
+You two need to decide whether you really want this relationship to work.
 
 Geoffrey Challen '02--'03 is a Resident Tutor at Eliot House. The views expressed are his and do not reflect official Harvard College policy. 
