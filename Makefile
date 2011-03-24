@@ -1,5 +1,6 @@
 START = xxxnote
 END = missing
+CLASS = $(HOME)/code/pytex/cls/document.cls
 
 all: document wc content.txt
 
@@ -13,4 +14,4 @@ content.txt: content.tex ./bin/clean ./bin/lib.py
 
 clean: rulesclean
 
-include Makerules
+include $(HOME)/code/pytex/make/Makerules
