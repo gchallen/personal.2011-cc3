@@ -4,7 +4,7 @@ CLASS = $(HOME)/code/pytex/cls/document.cls
 
 all: document wc content.txt
 
-wc:
+wc: content.tex
 	@$(PYTEX)/wc content.tex -
 
 content.txt: content.tex $(PYTEX)/clean $(PYTEX)/lib.py
